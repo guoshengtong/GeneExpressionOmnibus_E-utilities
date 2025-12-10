@@ -1,0 +1,16 @@
+# GEO Lung Metastasis Data Mining Pipeline
+# Python Dependencies
+
+# BioPython - NCBI E-utilities API interface
+biopython>=1.81
+
+# GEOparse - GEO SOFT file parser
+GEOparse>=2.0.4
+
+# Data manipulation and analysis
+pandas>=2.0.0
+
+# Optional: Rich for better terminal output
+rich>=13.0.0
+
+
