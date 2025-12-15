@@ -1,9 +1,49 @@
 # GEO 数据挖掘流水线
 # GEO Data Mining Pipeline
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/guoshengtong/GeneExpressionOmnibus_E-utilities)
+[![Language](https://img.shields.io/badge/Language-Python-green.svg)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Active-success.svg)](https://github.com/guoshengtong/GeneExpressionOmnibus_E-utilities)
+
 一个自动化的元数据挖掘和过滤流水线，用于从 NCBI GEO 数据库中系统地查询、解析和过滤特定研究目标的样本数据，并关联到 SRA 原始测序数据。
 
 An automated metadata mining and filtering pipeline for systematically querying, parsing, and filtering samples from the NCBI GEO database based on specific research objectives, with linkage to SRA raw sequencing data.
+
+## License
+
+本项目采用 MIT 许可证。
+
+This project is licensed under the MIT License.
+
+```
+MIT License
+
+Copyright (c) 2025 GeneExpressionOmnibus_E-utilities Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+**使用 NCBI 数据请遵守其使用条款。**
+
+**Please comply with NCBI terms of use when using their data.**
 
 ## 📋 项目概述 | Project Overview
 
@@ -381,39 +421,6 @@ prefetch --help
 - **BioPython Documentation:** https://biopython.org/wiki/Documentation
 - **GEOparse Documentation:** https://geoparse.readthedocs.io/
 
-## 📄 许可证 | License
-
-本项目采用 MIT 许可证。
-
-This project is licensed under the MIT License.
-
-```
-MIT License
-
-Copyright (c) 2025 GeneExpressionOmnibus_E-utilities Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-**使用 NCBI 数据请遵守其使用条款。**
-
-**Please comply with NCBI terms of use when using their data.**
 
 ## 🤝 贡献 | Contributing
 
