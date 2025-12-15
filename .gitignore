@@ -36,9 +36,10 @@ ENV/
 # Project specific
 GEO_Cache/
 SRA_Data/
-*.log
-GEO_Lung_Metastasis_Mining_Results.csv
-SRR_accession_list.txt
+logs/*.log
+results/*.csv
+data/*.txt
+!data/DIRECTORY_TREE.txt
 
 # macOS
 .DS_Store
